@@ -1,0 +1,18 @@
+[
+  {
+    "nomeCurso": "Engenharia de Software",
+    "grauCurso": "pós-graduação",
+    "instituicao": "Faculdade Líbano",
+    "inicio": "2025-09",
+    "fim": "2026-01",
+    "logoInstituicao": "/static/img/libano.png"
+  },
+  {
+    "nomeCurso": "Ciência de Dados",
+    "grauCurso": "Curso Superior de Tecnologia (CST)",
+    "instituicao": "Estácio",
+    "inicio": "2022-05",
+    "fim": "2024-04",
+    "logoInstituicao": "/static/img/estacio.png"
+  }
+]
