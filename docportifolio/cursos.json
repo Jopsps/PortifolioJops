@@ -1,0 +1,314 @@
+[
+  {
+    "nomeCurso": "Pipeline de dados: Combinando Python e orientação de objeto",
+    "instituicao": "Alura",
+    "data": "2025-12",
+    "urlCertificado": "faa3ee6a-86ac-44b1-a290-5ac7bc1865bd",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "Curso de Product Discovery",
+    "instituicao": "PM3",
+    "data": "2024-09",
+    "urlCertificado": "780d996105152815f21cb322261df3ca",
+    "codCertificado": "https://gerarcertificado.com.br/validar.php",
+    "logoInstituicao": "/static/img/pmtres.png"
+  },
+  {
+    "nomeCurso": "TECNICAS DE IA: MACHINE LEARNING E PLN",
+    "instituicao": "Estácio",
+    "data": "2024-06",
+    "urlCertificado": "14e9fe7e3494b2ab7988f96",
+    "codCertificado": "https://certificado.estacio.br/",
+    "logoInstituicao": "/static/img/estacio.png"
+  },
+  {
+    "nomeCurso": "KANBAN: ANÁLISES PARA IMPLEMENTAÇÃO",
+    "instituicao": "Alura",
+    "data": "2024-03",
+    "urlCertificado": "e0300e47-423f-44c7-b2d0-524514c97cd4",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "AMAZON LIGHTSAIL: DESCOMPLICANDO A NUVEM",
+    "instituicao": "Alura",
+    "data": "2023-11",
+    "urlCertificado": "cf805912-ca21-4491-b62e-1a1fbb9109a6",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "SCRUM: AGILIDADE EM SEU PROJETO",
+    "instituicao": "Alura",
+    "data": "2023-10",
+    "urlCertificado": "95335768-2c4b-49ed-bc8a-294cd77fde14",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "VB.NET COM WINDOWS FORMS PARTE 1",
+    "instituicao": "Alura",
+    "data": "2023-09",
+    "urlCertificado": "8f85e7a5-26aa-424f-a4ff-22698110bc08",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "VB.NET COM WINDOWS FORMS PARTE 2: ENTENDENDO A ORIENTAÇÃO A OBJETOS",
+    "instituicao": "Alura",
+    "data": "2023-09",
+    "urlCertificado": "3b5d19e3-2646-4c06-849d-ed71654708d7",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "C#: CRIANDO SUA PRIMEIRA APLICAÇÃO",
+    "instituicao": "Alura",
+    "data": "2023-07",
+    "urlCertificado": "fc3b0ccc-a07b-4feb-9f59-11e415f20211",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "FLASK: CRIE UMA WEBAPP COM PYTHON",
+    "instituicao": "Alura",
+    "data": "2023-07",
+    "urlCertificado": "cd83ea78-477a-4a74-b488-a044a524f60b",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "AVANÇANDO COM PHP: ARRAYS, STRINGS, FUNÇÃO E WEB",
+    "instituicao": "Alura",
+    "data": "2023-06",
+    "urlCertificado": "141e1588-1dd2-4fe5-9717-f92c8f1ebfc0",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "PHP: CONCEITOS, LIDANDO COM DADOS, LOOPS E MAIS",
+    "instituicao": "Alura",
+    "data": "2023-06",
+    "urlCertificado": "76ea25bb-15aa-41e2-80f9-1f7b43edae67",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "HTML E CSS: CABEÇALHO, FOOTER E VARIÁVEIS CSS",
+    "instituicao": "Alura",
+    "data": "2023-03",
+    "urlCertificado": "710b540d-f69c-4d89-bd04-7f1799c3b71b",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "HTML E CSS: CLASSES, POSICIONAMENTO E FLEXBOX",
+    "instituicao": "Alura",
+    "data": "2023-03",
+    "urlCertificado": "f5da623d-f7e0-4b89-8c89-365a9c4d752c",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "HTML E CSS: PRATICANDO HTML/CSS",
+    "instituicao": "Alura",
+    "data": "2023-03",
+    "urlCertificado": "50804e6d-a0e0-4f7a-b88a-7408a493d9b8",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "HTML E CSS: RESPONSIVIDADE COM MOBILE-FIRST",
+    "instituicao": "Alura",
+    "data": "2023-03",
+    "urlCertificado": "a042807d-362f-49fd-a2fe-ecaf771048e0",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "HTML E CSS: TRABALHANDO COM RESPONSIVIDADE E PUBLICAÇÃO DE PROJETOS",
+    "instituicao": "Alura",
+    "data": "2023-03",
+    "urlCertificado": "5e7258f2-c135-46a1-ad53-31f9999b1534",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "AGILIDADE: PROMOVENDO A TRANSFORMAÇÃO ÁGIL",
+    "instituicao": "Alura",
+    "data": "2023-02",
+    "urlCertificado": "7554c51e-2438-41e8-a942-5b6f38160aa9",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "DATA SCIENCE: ANALISE E VISUALIZAÇÃO DE DADOS.",
+    "instituicao": "Alura",
+    "data": "2023-02",
+    "urlCertificado": "4cdbf182-1d43-46dd-aeb7-2f7cdd7229a6",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "DJANGO: TEMPLATES E BOAS PRÁTICAS",
+    "instituicao": "Alura",
+    "data": "2023-02",
+    "urlCertificado": "c74caaf4-72f5-43a9-86ef-2be3049498be",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "Python para Data Science: Funções, Pacotes e Pandas",
+    "instituicao": "Alura",
+    "data": "2023-02",
+    "urlCertificado": "8f7fb748-1568-45c6-a3c0-afde28c8f86d",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "REPORT ANALYSIS COM POWER BI: GERANDO RELATÓRIOS EMPRESARIAIS",
+    "instituicao": "Alura",
+    "data": "2023-02",
+    "urlCertificado": "a60a31df-6e8a-4108-98a8-07707e882d4b",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "COMUNICAÇÃO ESTRATÉGICA NA LIDERANÇA: COMO ENGAJAR E INFLUENCIAR PESSOAS",
+    "instituicao": "Alura",
+    "data": "2022-12",
+    "urlCertificado": "72380def-88ea-4ec9-90cc-b4813566f769",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "DASHBOARD COM TABLEAU: CONCEITOS ESSENCIAIS",
+    "instituicao": "Alura",
+    "data": "2022-12",
+    "urlCertificado": "3b8be5c2-4e8d-4aa3-b928-0b161ee1ee9f",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "GERENCIAMENTO DE ESTRESSE: OTIMIZE SUA LIDERANÇA",
+    "instituicao": "Alura",
+    "data": "2022-12",
+    "urlCertificado": "36992495-6b6b-4cbe-b984-638d60cf7709",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "LGPD: CONHECENDO E ENTENDENDO SEUS IMPACTOS",
+    "instituicao": "Alura",
+    "data": "2022-12",
+    "urlCertificado": "9a53b0c3-f99d-4aaa-994c-cfd43697455e",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "LIDERANÇA AMBIDESTRA: BUSCANDO INOVAÇÃO E RESULTADO",
+    "instituicao": "Alura",
+    "data": "2022-12",
+    "urlCertificado": "9ba47ea0-7293-42be-b9ce-8999c2e92b1f",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "POWER BI: EXPLORANDO RECURSOS VISUAIS",
+    "instituicao": "Alura",
+    "data": "2022-12",
+    "urlCertificado": "4a6d0830-284c-4d7e-adf8-4af5bd1357a1",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "PYTHON PANDAS: TÉCNICAS AVANÇADAS",
+    "instituicao": "Alura",
+    "data": "2022-12",
+    "urlCertificado": "5fc87a8e-7df3-428b-a335-a2503133d349",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "DASHBOARD COM POWER BI: VISUALIZANDO DADOS",
+    "instituicao": "Alura",
+    "data": "2022-08",
+    "urlCertificado": "e1d4957b-08cb-464a-8415-876beb5a58ab",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "Estatistica com R: Crie e compare modelos estatisticos",
+    "instituicao": "Alura",
+    "data": "2022-08",
+    "urlCertificado": "757897c3-7687-4361-b2f5-397267837184",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "MACHINE LEARNING COM R: Classificação de focos de dengue",
+    "instituicao": "Alura",
+    "data": "2022-08",
+    "urlCertificado": "832203dd-053e-456e-8a55-09d38b155122",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "POWER BI: Entendendo as fórmulas DAX",
+    "instituicao": "Alura",
+    "data": "2022-08",
+    "urlCertificado": "bd44f327-e8a3-4001-9069-d8db73aef077",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "PYTHON PANDAS: Tratando e analisando dados",
+    "instituicao": "Alura",
+    "data": "2022-08",
+    "urlCertificado": "d2dbe4dc-fe82-4cf7-840f-c5ad6b9580da",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "SQL SERVER: Administração do Microsoft SQLServer",
+    "instituicao": "Alura",
+    "data": "2022-08",
+    "urlCertificado": "f6c3690b-c43f-446f-871e-dcf999aaa23c",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "SQL SERVER: Consultas avançadas com Microsoft SQL SERVER",
+    "instituicao": "Alura",
+    "data": "2022-08",
+    "urlCertificado": "da275a4a-3fe4-4432-8adb-3a2fe4779f85",
+    "codCertificado": "https://cursos.alura.com.br/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  },
+  {
+    "nomeCurso": "Manipulação e Análise de dados com Python e Pandas",
+    "instituicao": "Udemy",
+    "data": "2022-07",
+    "urlCertificado": "UC-be244324-9c33-47be-a7be-a7c2-aba2ea65a867",
+    "codCertificado": "https://www.udemy.com/certificate/",
+    "logoInstituicao": "/static/img/udemy.png"
+  },
+  {
+    "nomeCurso": "POWER BI + DAX",
+    "instituicao": "Udemy",
+    "data": "2022-07",
+    "urlCertificado": "UC-63ab4df1-93b6-4a81-bb05-319bf5134a7e",
+    "codCertificado": "https://www.udemy.com/certificate/",
+    "logoInstituicao": "/static/img/udemy.png"
+  },
+  {
+    "nomeCurso": "HTML E CSS: AMBIENTES DE DESENVOLVIMENTO, ESTRUTURA DE ARQUIVOS E TAGS",
+    "instituicao": "Alura",
+    "data": "2022-03",
+    "urlCertificado": "1f57c819-542d-4203-971b-cab1a1e83ea8",
+    "codCertificado": "https://www.udemy.com/certificate/",
+    "logoInstituicao": "/static/img/alura.png"
+  }
+]

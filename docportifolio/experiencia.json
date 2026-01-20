@@ -1,0 +1,66 @@
+[
+  {
+    "departamento": "Planejamento",
+    "cargo": "Coordenador de Business Intelligence",
+    "descricao": "Atuação como Coordenador de Business Intelligence, liderando um time composto por assistentes e analistas nos níveis júnior, pleno, sênior e especialistas. Meu foco principal é o desenvolvimento profissional do time, o acompanhamento de métricas de desempenho e o alinhamento contínuo entre as orientações de negócio e técnicas.\n\nSou responsável pela implantação e acompanhamento das metodologias ágeis, garantindo o bom andamento da esteira de demandas do time, bem como pela organização dos processos, documentação de regras de negócio e funcionalidades técnicas da carteira sob minha gestão. Também atuo como elo estratégico na comunicação entre as áreas internas de apoio (departamentos, gerência, superintendência e diretoria) e externas, como clientes e prestadores de serviço.\n\nCom uma abordagem orientada a dados para tomada de decisão, desempenho ainda um papel técnico relevante, atuando em atividades de alta complexidade e impacto. Isso inclui o desenvolvimento e acompanhamento de micros pipelines de dados, aplicação de processos de ETL para centralização das informações e implementação de regras de negócio previamente alinhadas, utilizando diferentes linguagens de programação.",
+    "empresa": "Paschoalotto",
+    "inicio": "2025-01",
+    "fim": "Atual"
+  },
+  {
+    "departamento": "Desenvolvimento - TI",
+    "cargo": "Desenvolvedor e Analista de Sistemas",
+    "descricao": "Atuação em um time de sustentação, desempenhando um papel fundamental na identificação, análise e documentação de alterações e implantações em sistemas e bancos de dados, garantindo o correto funcionamento de todas as funcionalidades.\n\nComo principal responsabilidade, assegurar a estabilidade, disponibilidade e eficácia contínua dos sistemas críticos para as operações da empresa, em colaboração direta com as equipes de desenvolvimento na implementação de melhorias e correções, além de prestar suporte técnico aos usuários finais, garantindo que suas demandas fossem atendidas de forma eficiente.\n\nAdicionalmente, atuei no desenvolvimento de funcionalidades previamente alinhadas com o negócio, realizando integrações entre sistemas e CRM com bancos de dados. Desenvolvi aplicações, serviços e funções em banco de dados utilizando diferentes linguagens de programação, com foco em atender aos objetivos finais da solução e às necessidades da organização.",
+    "empresa": "Paschoalotto",
+    "inicio": "2024-03",
+    "fim": "2025-01"
+  },
+  {
+    "departamento": "Planejamento",
+    "cargo": "Especialista de Planejamento - Faixa III",
+    "descricao": "Atuação com foco em liderança, possuindo conhecimento aprofundado do produto e auxiliando no gerenciamento da equipe.\n\nResponsável pelo levantamento, batimento e análise de informações destinadas à Diretoria, clientes parceiros, áreas de planejamento e gerência, tanto em temas relacionados ao faturamento da carteira quanto em informações para apresentações e definições de estratégias humanas e digitais. Atuação também na frente de projetos voltados a ideias e inovações, incluindo a homologação de novas funcionalidades para a carteira em conjunto com os departamentos responsáveis.\n\nAlém disso, atuei no desenvolvimento dos analistas sênior, júnior, pleno, assistentes e estagiários, promovendo capacitação em ferramentas técnicas como R, Power BI, SQL e Python, bem como no fortalecimento da comunicação com outros departamentos e na gestão do tempo em suas atividades.",
+    "empresa": "Paschoalotto",
+    "inicio": "2023-03",
+    "fim": "2024-03"
+  },
+  {
+    "departamento": "Planejamento",
+    "cargo": "Analista Sênior",
+    "descricao": "Responsável pelo levantamento, batimento e análise de informações destinadas à Diretoria, clientes parceiros, áreas de planejamento e gerência, abrangendo tanto temas relacionados ao faturamento da carteira quanto informações para apresentações e definições de estratégias humanas e digitais. Atuação também na frente de projetos voltados a ideias e inovações, incluindo a homologação de novas funcionalidades para a carteira em conjunto com os departamentos responsáveis.\n\nAlém disso, desempenhei papel ativo no desenvolvimento dos analistas júnior, pleno, assistentes e estagiários, promovendo capacitação em ferramentas técnicas como R, Power BI, SQL e Python, bem como no fortalecimento da comunicação com outros departamentos e na gestão do tempo em suas atividades.",
+    "empresa": "Paschoalotto",
+    "inicio": "2022-10",
+    "fim": "2023-03"
+  },
+  {
+    "departamento": "Planejamento",
+    "cargo": "Analista Pleno",
+    "descricao": "Responsável pelo levantamento, batimento e análise de informações destinadas ao cliente parceiro, áreas de planejamento e gerência, com foco no aumento de faturamento da carteira e na elaboração de informações para apresentações institucionais.\n\nDevido ao alto domínio de ferramentas como Power BI, Python e R, atuei na disseminação de boas práticas e na condução de projetos de automatização de processos e relatórios da carteira.\n\nTambém desempenhei papel no desenvolvimento dos analistas júnior e assistentes, promovendo capacitação em ferramentas técnicas como R, Power BI, SQL e Python, além do fortalecimento da comunicação com outros departamentos e da gestão do tempo em suas atividades.",
+    "empresa": "Paschoalotto",
+    "inicio": "2022-03",
+    "fim": "2022-10"
+  },
+  {
+    "departamento": "Planejamento",
+    "cargo": "Analista Júnior",
+    "descricao": "Atuação como responsável por um projeto de curadoria, com foco na definição de escopo, estruturação de automações e desenvolvimento de relatórios autônomos. Fui responsável pela implementação das automações de rotinas, processos e relatórios da carteira.\n\nAlém disso, atuei no desenvolvimento e na disseminação do conhecimento das ferramentas utilizadas nos processos, como R, Power BI e SQL Server, apoiando a evolução técnica das entregas e das rotinas da área.",
+    "empresa": "Paschoalotto",
+    "inicio": "2021-12",
+    "fim": "2022-03"
+  },
+  {
+    "departamento": "Planejamento",
+    "cargo": "Assistente de Control Desk",
+    "descricao": "Atuação no acompanhamento em tempo real da ferramenta de discador, realizando movimentações e configurações conforme a estratégia alinhada com a gerência.\n\nResponsável pela atualização de relatórios, análises e apontamentos com foco na melhoria de resultados. Atuei também na definição de estratégias, em conjunto com a gerência, para aplicação no discador, disparos de SMS e utilização de ferramentas digitais.",
+    "empresa": "Paschoalotto",
+    "inicio": "2020-04",
+    "fim": "2021-12"
+  },
+  {
+    "departamento": "Operação",
+    "cargo": "Operador de Telesserviços",
+    "descricao": "Atuação no atendimento ao cliente com foco na negociação e resolução de demandas relacionadas aos produtos da carteira.\n\nApós um período, assumi atividades de apoio à supervisão, sendo responsável por auxiliar os CI's, acompanhar a produção da equipe e prestar suporte operacional aos colaboradores na ausência do supervisor responsável.",
+    "empresa": "Paschoalotto",
+    "inicio": "2017-08",
+    "fim": "2020-04"
+  }
+]

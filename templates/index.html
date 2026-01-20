@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfólio - João Pedro dos Santos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="{{ url_for('static', filename='js/functions.js') }}"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class = "index" id="body">
+    <header class="header__index">
+        <div class="header__index-left">
+            <a class = "header__index__text" href="https://wa.me/5514988268594" target="_blank">WhatsApp</a>
+            <a class = "header__index__text" href="https://www.linkedin.com/in/jo%C3%A3o-santos-26b894225/" target="_blank">LinkedIn</a>
+            <a class = "header__index__text" href="#" id="emailLink">E-mail</a>
+            <a class = "header__index__text" href="https://github.com/Jopsps" target="_blank">GitHub</a>
+        </div>
+        <div class="dark-mode-toggle">
+            <div class="toggle-ball"></div>
+        </div>
+    </header>
+    <main class = "main__index">
+        <section class="start__index">
+            <img
+                class="start__index__photo"
+                src="{{ url_for('static', filename='img/fotoperfil.png') }}"
+                alt="Imagem João Pedro">
+            <h1 class="start__index__title">João Pedro dos Santos</h1>
+            <div class="start__index__text">
+                <p class="start__index__text__text">
+                    Sou o João, conhecido como Jops. Atuo em squads onde a tecnologia é usada como ferramenta
+                    para resolver problemas reais, seja construindo soluções, organizando ideias ou transformando
+                    necessidades em algo que funcione de verdade no dia a dia.
+                </p>
+                <p class="start__index__text__text">
+                    Tenho atuação em squads de dados e desenvolvimento de sistemas, com foco no aprendizado contínuo
+                    e na evolução profissional. Busco constantemente desenvolver e analisar soluções que gerem valor,
+                    eficiência e impacto direto no negócio.
+                </p>
+                <p class="start__index__text__text">
+                    No fim das contas, me movem bons desafios, o aprendizado constante e a vontade de compartilhar
+                    conhecimento, ajudando outras pessoas a evoluírem e deixando um legado positivo tanto nas pessoas
+                    quanto nas soluções que ajudo a construir.
+                </p>
+            </div>
+        </section>
+        <section class="mid__index">
+            <a href="{{ url_for('curriculo') }}" class="mid__index__curriculo-link">
+                <div class = "mid__index__section">
+                    <div class="mid__index__curriculo" href = './curriculo.html'>
+                        <img
+                            class="mid__index__curriculo__image"
+                            src="{{ url_for('static', filename='img/imagecurriculo.png') }}"
+                            alt="Imagem currículo">
+                        <div class="mid__index__curriculo__content">
+                            <h2 class="mid__index__curriculo__title">
+                                Meu currículo
+                            </h2>
+                            <div class="mid__index__curriculo__text">
+                                <p class="mid__index__curriculo__text__text">
+                                    Aqui você pode visualizar meu currículo de forma dinâmica e interativa, mais visual do que o formato tradicional. Apresento minha trajetória profissional, formações acadêmicas e cursos realizados.
+                                </p>
+                                <p class="mid__index__curriculo__text__text">
+                                    O objetivo é facilitar a compreensão do meu perfil, destacando experiências, competências e conhecimentos de forma clara, organizada e acessível.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="{{ url_for('projetos') }}" class="mid__index__projects-link">
+                    <div class="mid__index__projects">
+                        <img
+                            class="mid__index__projects__image"
+                            src="{{ url_for('static', filename='img/imageprojects.png') }}"
+                            alt="Imagem projects">
+                        <div class="mid__index__projects__content">
+                            <h2 class="mid__index__projects__title">
+                                Meus principais projetos
+                            </h2>
+                            <div class="mid__index__projects__text">
+                                <p class="mid__index__projects__text__text">
+                                    Aqui você poderá visualizar alguns projetos, tanto colaborativos quanto individuais, que representam bem meu perfil profissional e demonstram, na prática, a aplicação dos meus conhecimentos técnicos e analíticos.
+                                </p>
+                                <p class="mid__index__projects__text__text">
+                                    É importante destacar que alguns desses projetos possuem caráter corporativo e, por questões de confidencialidade, não podem ser apresentados em seu formato original. Nesses casos, desenvolvi réplicas em ambiente particular, mantendo a lógica, a arquitetura e os principais conceitos utilizados, com o objetivo de oferecer uma demonstração visual e técnica fiel ao trabalho realizado.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a> 
+
+                <a href="{{ url_for('habilidades') }}" class="mid__index__abilities-link">
+                    <div class="mid__index__abilities">
+                        <img
+                            class="mid__index__abilities__image"
+                            src="{{ url_for('static', filename='img/imageabilities.png') }}"
+                            alt="Imagem abilities">
+                        <div class="mid__index__abilities__content">
+                            <h2 class="mid__index__abilities__title">
+                                Habilidades
+                            </h2>
+                            <div class="mid__index__abilities__text">
+                                <p class="mid__index__abilities__text__text">
+                                    Aqui você encontrará os principais tópicos das minhas habilidades, abrangendo tanto soft skills quanto hard skills, apresentados de forma clara e objetiva.
+                                </p>
+                                <p class="mid__index__abilities__text__text">
+                                    O objetivo desta seção é demonstrar não apenas o conhecimento técnico, mas também competências comportamentais essenciais para o trabalho em equipe, resolução de problemas, comunicação e tomada de decisão, evidenciando como essas habilidades contribuem diretamente para a geração de valor e resultados no dia a dia.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+    </main>
+    {% include "footer.html" %}
+</body>
+</html>

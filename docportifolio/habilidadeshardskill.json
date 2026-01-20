@@ -1,0 +1,68 @@
+[
+  {
+    "tipo": "Dados",
+    "titulo": "Análise de Dados",
+    "descricao": "Atuação sólida em análise de dados utilizando linguagens de programação, entendimento de regras de negócio e construção de indicadores KPI, gerando diagnósticos claros e insights estratégicos para apoiar a tomada de decisão.",
+    "imagemHabilidades": "/static/img/analisedados.png"
+  },
+  {
+    "tipo": "Dados",
+    "titulo": "Pipelines de Dados",
+    "descricao": "Experiência na criação e monitoramento de pipelines ETL e ELT, realizando extração de dados a partir de bancos, arquivos e APIs, com domínio em tratamento, transformação e processamento de grandes volumes de dados.",
+    "imagemHabilidades": "/static/img/pipeline.png"
+  },
+  {
+    "tipo": "Dados",
+    "titulo": "Bancos de Dados",
+    "descricao": "Conhecimento em bancos de dados relacionais como SQL Server, PostgreSQL e MySQL, compreendendo arquitetura de armazenamento, modelagem de dados e desenvolvimento de queries, views e functions para suporte analítico e operacional.",
+    "imagemHabilidades": "/static/img/bancodedados.png"
+  },
+  {
+    "tipo": "Programação",
+    "titulo": "Python",
+    "descricao": "Utilização de Python para manipulação e tratamento de dados com bibliotecas como Pandas, NumPy e Spark, além de automações RPA, web scraping e desenvolvimento de aplicações web utilizando Flask.",
+    "imagemHabilidades": "/static/img/python.png"
+  },
+  {
+    "tipo": "Programação",
+    "titulo": "Linguagem 'R'",
+    "descricao": "Conhecimento em R voltado para manipulação, análise e tratamento de dados, utilizando recursos estatísticos e bibliotecas específicas para exploração de dados e geração de análises descritivas.",
+    "imagemHabilidades": "/static/img/r.png"
+  },
+  {
+    "tipo": "Geral",
+    "titulo": "Pacote Office",
+    "descricao": "Domínio do Pacote Office, com foco em Excel para análises, consolidação de dados e construção de dashboards, além de PowerPoint para elaboração de apresentações executivas e materiais de apoio para comitês.",
+    "imagemHabilidades": "/static/img/office.png"
+  },
+  {
+    "tipo": "Geral",
+    "titulo": "Metodologias Ágeis",
+    "descricao": "Aplicação prática de metodologias ágeis e frameworks de execução, com acompanhamento de métricas como lead time, throughput e CFD, além de documentação de processos e apoio à escalabilidade organizacional.",
+    "imagemHabilidades": "/static/img/metodologiaagel.png"
+  },
+  {
+    "tipo": "Programação",
+    "titulo": "Power Automate",
+    "descricao": "Experiência no desenvolvimento de automações utilizando Power Automate, integrando diferentes sistemas e ferramentas via APIs para automatização de fluxos, processos operacionais e rotinas corporativas.",
+    "imagemHabilidades": "/static/img/powerautomate.png"
+  },
+  {
+    "tipo": "Dados",
+    "titulo": "Power BI",
+    "descricao": "Criação de dashboards automatizados no Power BI, integrando linguagens de programação para tratamento de dados, otimização de performance e autonomia nos fluxos de atualização, com visualizações dinâmicas e orientadas a indicadores.",
+    "imagemHabilidades": "/static/img/powerbi.png"
+  },
+  {
+    "tipo": "Programação",
+    "titulo": "C#",
+    "descricao": "Conhecimento em C# aplicado ao desenvolvimento de robôs RPA, com integrações a bancos de dados e APIs, focando na automação de processos e ganho de eficiência operacional.",
+    "imagemHabilidades": "/static/img/csharp.png"
+  },
+  {
+    "tipo": "Geral",
+    "titulo": "Integração de APIs",
+    "descricao": "Entendimento sobre funcionamento e consumo de APIs REST, incluindo autenticação, integração entre sistemas e aplicação prática em automações, pipelines de dados e comunicação entre serviços.",
+    "imagemHabilidades": "/static/img/api.png"
+  }
+]

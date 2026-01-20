@@ -1,0 +1,56 @@
+[
+    {
+        "tipo": "Geral",
+        "titulo": "Organização",
+        "descricao": "Possuo uma organização fortemente estabelecida, tanto em minha rotina (organização de meu modo de trabalho, priorização e estruturação das atividades), assim como conhecendo muito quanto a metodologias ágeis, documentações entre outras.",
+        "imagemHabilidades": "/static/img/organizacao.png"
+    },
+    {
+        "tipo": "Geral",
+        "titulo": "Pensamento analítico",
+        "descricao": "Entendimento de atividades de alta complexidade, realizando o entendimento claro de como devem ser executadas, ramificando em etapas, dando priorização para as partes que geram negócio, assim como entendendo os conceitos estratégicos.",
+        "imagemHabilidades": "/static/img/pensamentoanalitico.png"
+    },
+    {
+        "tipo": "Geral",
+        "titulo": "Comunicação",
+        "descricao": "Possuo clareza na comunicação estreitando o laço entre minha área de atuação assim como demais departamentos. Tenho comunicação assertiva no alinhamento de atividades, entendimento, e compartilhamento de meu conhecimento com demais integrantes do time.",
+        "imagemHabilidades": "/static/img/comunicacao.png"
+    },
+    {
+        "tipo": "Geral",
+        "titulo": "Trabalho em equipe",
+        "descricao": "Forte laço para trabalhar em equipe, auxiliando os que precisam e sempre buscando trazer um clima colaborativo.",
+        "imagemHabilidades": "/static/img/trabalhoemequipe.png"
+    },
+    {
+        "tipo": "Geral",
+        "titulo": "Resiliência",
+        "descricao": "Saber lidar com situações que fogem do controle, que saem do previsto, focando na solução.",
+        "imagemHabilidades": "/static/img/resiliencia.png"
+    },
+    {
+        "tipo": "Geral",
+        "titulo": "Resolução de problemas",
+        "descricao": "Facilidade no entendimento e meios de resolução de problemas complexos envolvendo tanto a parte técnica quanto a parte de negócio.",
+        "imagemHabilidades": "/static/img/resolucaodeproblemas.png"
+    },
+    {
+        "tipo": "Geral",
+        "titulo": "Pensamento lógico",
+        "descricao": "Estruturar código e algoritmos de forma coerente, sempre visando clareza e documentação para escalabilidade e entendimento de outros colaboradores.",
+        "imagemHabilidades": "/static/img/pensamentologico.png"
+    },
+    {
+        "tipo": "Geral",
+        "titulo": "Facilidade de aprendizado",
+        "descricao": "Facilidade em entendimento de novas ferramentas, metodologias e ambiente de trabalho.",
+        "imagemHabilidades": "/static/img/facilidadedeaprendizado.png"
+    },
+    {
+        "tipo": "Geral",
+        "titulo": "Autonomia",
+        "descricao": "Possuo autonomia em meu trabalho, sempre buscando resultado, melhoria e também novas tecnologias.",
+        "imagemHabilidades": "/static/img/autonomia.png"
+    }
+]
