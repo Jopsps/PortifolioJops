@@ -1,0 +1,22 @@
+[
+  {
+    "tag": "Programação",
+    "nameproject": "Desenvolvimento Web de Portfólio",
+    "descricao": "Portfólio desenvolvido por mim com o objetivo de apresentar minhas experiências profissionais, conhecimentos técnicos e projetos corporativos e pessoais. O projeto foi construído utilizando Python (Flask), HTML, CSS e JavaScript. Conta com layout responsivo para dispositivos móveis e estrutura de dados alimentada via JSON, facilitando a manutenção, escalabilidade e inclusão de novos conteúdos de forma ágil. O desenvolvimento seguiu conceitos de boas práticas de engenharia de software, organização de código e versionamento com Git, garantindo controle e padronização do projeto. A aplicação é orquestrada via GitHub e hospedada com domínio próprio.",
+    "link": "www.joaopedrodossantos.com.br",
+    "imagemprincipal": "/static/img/devportifolio.png",
+    "imagemum": "/static/img/devportifolio1.png",
+    "imagemdois": "/static/img/devportifolio2.png",
+    "imagemtres": "/static/img/devportifolio3.png"
+  },
+  {
+    "tag": "Programação",
+    "nameproject": "Desenvolvimento Web - Fenda do Invocador",
+    "descricao": "Projeto pessoal denominado 'Fenda do Invocador', desenvolvido com o objetivo de visualizar informações e estatísticas de partidas do jogo League of Legends, além de apresentar lore, habilidades e visuais dos campeões. A aplicação foi desenvolvida utilizando Python (Flask), HTML, CSS e JavaScript, integrando-se à API oficial da RIOT Games por meio de múltiplos endpoints e fluxos de requisição, sendo totalmente alimentada por dados dinâmicos provenientes dessas integrações. Atualmente, o projeto encontra-se em fase de desenvolvimento. A API Key utilizada é de ambiente de homologação e, por políticas de segurança da RIOT, não permite uso em produção. Dessa forma, embora todas as funcionalidades estejam implementadas e funcionais em ambiente de desenvolvimento, na hospedagem pública com domínio próprio apenas a aba 'Campeões' está disponível para visualização.",
+    "link": "www.fendadoinvocador.com.br",
+    "imagemprincipal": "/static/img/devfendainvocador.png",
+    "imagemum": "/static/img/devfendainvocador1.png",
+    "imagemdois": "/static/img/devfendainvocador2.png",
+    "imagemtres": "/static/img/devfendainvocador3.png"
+  }
+]

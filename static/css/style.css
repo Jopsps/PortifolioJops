@@ -1,0 +1,540 @@
+@import url('stylecurriculo.css');
+@import url('stylehabilidades.css');
+@import url('styleprojetos.css');
+/* VARIAVEIS ----->> */
+/* CORES */
+:root {
+    /* ----------------- FUNDO PRINCIPAL ----------------- */
+    --color__body__index: #0b121c;
+    
+    /* ----------------- HEADER ----------------- */
+    --color__header__index: rgba(20, 28, 40, 0.95);
+    --color__header__index__text: #f6f4e8;
+    --color__header__index__hover: #1e90ff;
+    
+    /* ----------------- SECTION INICIAL ----------------- */
+    --color__ini__index: #111827;
+    --color__ini__index__text: #f6f4e8;
+    --color__ini__index__title: #f6f4e8;
+    --color__ini__index__shadow: rgba(0, 0, 0, 0.25);
+    
+    /* ----------------- SECTION MID ----------------- */
+    --color__mid__index: #1c2331;
+    --color__mid__index__text: #eae6d8;
+    --color__mid__index__text: #eae6d8;
+    --color__mid__index__hover: rgba(30, 48, 70, 0.85);
+    --color__mid__index__shadow: rgba(0, 0, 0, 0.2);
+    
+    /* ----------------- SECTION FOOTER ----------------- */
+    --color__footer__index: rgba(18, 26, 38, 0.97);
+    --color__footer__index__text: #f6f4e8;
+    --color__footer__index__hover: #1e90ff;
+    
+    /* ----------------- DETALHES ADICIONAIS ----------------- */
+    --color__highlight: #1e90ff;
+    --color__shadow-general: rgba(0, 0, 0, 0.22);
+}
+/* LIGHT MODE VARS */
+.light-mode {
+    --color__body__index: #f5f5f5;
+    --color__header__index: #eaeaea;
+    --color__header__index__text: #1c1c1c;
+    --color__header__index__hover: #1e90ff;
+
+    --color__ini__index: #ffffff;
+    --color__ini__index__text: #1c1c1c;
+    --color__ini__index__title: #1e90ff;
+    --color__ini__index__shadow: rgba(0,0,0,0.1);
+
+    --color__mid__index: #f0f0f0;
+    --color__mid__index__text: #1c1c1c;
+    --color__mid__index__title: #1e90ff;
+    --color__mid__index__hover: rgba(30, 48, 70, 0.2);
+    --color__mid__index__shadow: rgba(0,0,0,0.1);
+
+    --color__footer__index: #eaeaea;
+    --color__footer__index__text: #1c1c1c;
+    --color__footer__index__hover: #1e90ff;
+
+    --color__highlight: #1e90ff;
+    --color__shadow-general: rgba(0,0,0,0.15);
+}
+
+/* =========================================== */
+/* RESET PADRÃO */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =========================================== */
+/* SECTION DO HEADER ----->>*/
+.header__index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem 0;
+    background-color: var(--color__header__index);
+    position: relative;
+}
+
+.dark-mode-toggle {
+    position: absolute;
+    right: 2rem;
+    width: 3rem;
+    height: 1.5rem;
+    background-color: rgba(246, 244, 232, 0.3);
+    border-radius: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0.2rem;
+    transition: background 0.3s;
+}
+
+.dark-mode-toggle .toggle-ball {
+    width: 1.1rem;
+    height: 1.1rem;
+    background-color: var(--color__highlight);
+    border-radius: 50%;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+body.light-mode .dark-mode-toggle {
+    background-color: rgba(30, 144, 255, 0.3);
+}
+
+body.light-mode .dark-mode-toggle .toggle-ball {
+    transform: translateX(1.5rem);
+    background-color: #f6f4e8;
+}
+
+.header__index__text {
+    text-decoration: none;
+    color: var(--color__header__index__text);
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    transition: color 0.3s;
+
+    margin-right: 2rem;
+}
+
+.header__index__text:last-child {
+    margin-right: 0;
+}
+
+.header__index__text:hover {
+    color: var(--color__header__index__hover);
+}
+
+/* =========================================== */
+/* BODY ----->>*/
+.index {
+    background-color: var(--color__body__index);
+}
+
+/* =========================================== */
+/* SECTION DA IMAGEM E TEXTO INICIAL ----->>*/
+.start__index {
+    display: grid;
+    grid-template-columns: 12.5rem 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 4rem;
+    row-gap: 2rem;
+    max-width: 70rem;
+    margin: 7rem auto;
+    padding: 4rem 5rem;
+    align-items: start;
+    background-color: var(--color__ini__index);
+    border-radius: 1rem;
+    box-shadow: 0 8px 20px var(--color__ini__index__shadow);
+    color: var(--color__ini__index__text);
+}
+
+.start__index__photo {
+    grid-row: 1 / span 2;
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    align-self: center;
+    margin: 5rem auto 5rem;
+}
+
+.start__index__title {
+    margin: 0 0 16px 0;
+    font-family: 'Inter', sans-serif;
+    color: var(--color__ini__index__title);
+}
+
+.start__index__text {
+    max-width: 700px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* =========================================== */
+/* SECTION DA OPCAO DE NAVEGACAO ----->>*/
+.mid__index {
+    margin: 7rem auto;
+    padding: 2rem 1rem;
+    color: var(--color__mid__index__text);
+}
+
+.mid__index__section {
+    margin: 5rem 5rem;
+    padding: 2rem 5rem;
+    background-color: var(--color__mid__index);
+    border-radius: 1rem;
+    box-shadow: 0 8px 20px var(--color__mid__index__shadow);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.mid__index__abilities__title,.mid__index__curriculo__title,.mid__index__projects__title{
+    color: var(--color__mid__index__title);
+}
+
+/* =========================================== */
+/* SECTION DA OPCAO DE CURRICULO */
+.mid__index__curriculo-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.mid__index__curriculo-link:hover .mid__index__curriculo {
+    transform: translateY(-0.2rem);
+    box-shadow: 0 10px 25px var(--color__shadow-general);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.mid__index__curriculo {
+    display: grid;
+    grid-template-columns: 12.5rem 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 2rem;
+    align-items: start;
+    max-width: 110rem;
+    margin: 5rem auto 5rem;
+    background-color: var(--color__mid__index);
+    border-radius: 1rem;
+    box-shadow: 0 8px 20px var(--color__mid__index__shadow);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    padding: 3rem;
+    text-decoration: none;
+}
+
+.mid__index__curriculo:hover {
+    background-color: var(--color__mid__index__hover);
+}
+
+.mid__index__curriculo__image {
+    grid-row: 1 / span 2;
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    align-self: center;
+}
+
+.mid__index__curriculo__title {
+    margin: 0 0 12px 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.mid__index__curriculo__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.mid__index__curriculo__text__text {
+    font-family: 'Inter', sans-serif;
+}
+
+/* =========================================== */
+/* SECTION DA OPCAO DE PROJETOS */
+.mid__index__projects-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.mid__index__projects-link:hover .mid__index__projects {
+    transform: translateY(-0.2rem);
+    box-shadow: 0 10px 25px var(--color__shadow-general);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.mid__index__projects {
+    display: grid;
+    grid-template-columns: 12.5rem 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 2rem;
+    align-items: start;
+    max-width: 110rem;
+    margin: 5rem auto 5rem;
+    background-color: var(--color__mid__index);
+    border-radius: 1rem;
+    box-shadow: 0 8px 20px var(--color__mid__index__shadow);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    padding: 3rem;
+}
+
+.mid__index__projects:hover {
+    background-color: var(--color__mid__index__hover);
+}
+
+.mid__index__projects__image {
+    grid-row: 1 / span 2;
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    align-self: center;
+}
+
+.mid__index__projects__title {
+    margin: 0 0 12px 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.mid__index__projects__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.mid__index__projects__text__text {
+    font-family: 'Inter', sans-serif;
+}
+
+/* =========================================== */
+/* SECTION DA OPCAO DE HABILIDADES */
+.mid__index__abilities-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.mid__index__abilities-link:hover .mid__index__abilities {
+    transform: translateY(-0.2rem);
+    box-shadow: 0 10px 25px var(--color__shadow-general);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.mid__index__abilities {
+    display: grid;
+    grid-template-columns: 12.5rem 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 2rem;
+    align-items: start;
+    max-width: 110rem;
+    margin: 5rem auto 5rem;
+    background-color: var(--color__mid__index);
+    border-radius: 1rem;
+    box-shadow: 0 8px 20px var(--color__mid__index__shadow);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    padding: 3rem;
+}
+
+.mid__index__abilities:hover {
+    background-color: var(--color__mid__index__hover);
+}
+
+.mid__index__abilities__image {
+    grid-row: 1 / span 2;
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    align-self: center;
+}
+
+.mid__index__abilities__title {
+    margin: 0 0 12px 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.mid__index__abilities__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.mid__index__abilities__text__text {
+    font-family: 'Inter', sans-serif;
+}
+
+/* =========================================== */
+/* SECTION DO FOOTER ----->>*/
+.footer__index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 0;
+    background-color: var(--color__footer__index);
+}
+
+.footer__index > div {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+
+.footer__index > div a {
+    color: var(--color__footer__index__text);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer__index > div a:hover {
+    color: var(--color__footer__index__hover);
+}
+
+.footer__index img {
+    width: 1.5rem;
+    height: 1.5rem;
+    object-fit: contain;
+}
+
+
+
+/* ================================================= */
+/* ================== MOBILE ======================= */
+/* ================================================= */
+@media (max-width: 768px) {
+
+    /* ---------- HEADER ---------- */
+    .header__index {
+        padding: 0.8rem 0;
+    }
+
+    .header__index__text {
+        font-size: 0.85rem;
+        margin-right: 1.2rem;
+    }
+
+    .dark-mode-toggle {
+        right: 1rem;
+        transform: scale(0.9);
+    }
+
+    /* ---------- START / HERO ---------- */
+    .start__index {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        grid-template-columns: unset;
+        grid-template-rows: unset;
+
+        margin: 4rem 1rem;
+        padding: 3rem 2rem;
+        gap: 1.5rem;
+    }
+
+    .start__index__photo {
+        width: 9rem;
+        height: 9rem;
+        margin: 0 0 1rem 0;
+    }
+
+    .start__index__title {
+        margin: 0;
+    }
+
+    .start__index__text {
+        max-width: 100%;
+    }
+
+    /* ---------- MID SECTION ---------- */
+    .mid__index {
+        margin: 4rem 0;
+        padding: 0;
+    }
+
+    .mid__index__section {
+        margin: 3rem 1rem;
+        padding: 2.5rem 2rem;
+    }
+
+    /* ---------- CARDS (CURRÍCULO / PROJETOS / HABILIDADES) ---------- */
+    .mid__index__curriculo,
+    .mid__index__projects,
+    .mid__index__abilities {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        grid-template-columns: unset;
+        grid-template-rows: unset;
+
+        padding: 2.5rem 2rem;
+        gap: 1.5rem;
+    }
+
+    .mid__index__curriculo__image,
+    .mid__index__projects__image,
+    .mid__index__abilities__image {
+        width: 8.5rem;
+        height: 8.5rem;
+    }
+
+    .mid__index__curriculo__content,
+    .mid__index__projects__content,
+    .mid__index__abilities__content {
+        align-items: center;
+    }
+
+    /* ---------- FOOTER ---------- */
+    .footer__index {
+        padding: 2rem 1rem;
+        gap: 1.2rem;
+        text-align: center;
+    }
+
+    .footer__index > div {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+/* ================================================= */
+/* =============== MOBILE PEQUENO ================== */
+/* ================================================= */
+@media (max-width: 480px) {
+
+    /* HEADER */
+    .header__index__text {
+        font-size: 0.78rem;
+        margin-right: 0.8rem;
+    }
+
+    .dark-mode-toggle {
+        transform: scale(0.85);
+    }
+
+    /* START */
+    .start__index {
+        padding: 2.5rem 1.5rem;
+    }
+
+    .start__index__photo {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    /* CARDS */
+    .mid__index__curriculo,
+    .mid__index__projects,
+    .mid__index__abilities {
+        padding: 2rem 1.5rem;
+    }
+}
+
+
+

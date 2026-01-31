@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Curriculo - João Pedro dos Santos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="{{ url_for('static', filename='js/functions.js') }}"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class = "curriculo" id="body">
+    {% include "header__curri-proj-hab.html" %}
+    <main class = "main__curriculo">
+
+    <section class="formation__curriculo">
+        <h1 class="formation__curriculo__title">
+            Formação Acadêmica
+        </h1>
+        <ul class="formation__curriculo__itens">
+            {% for curso in formacoes %}
+        <li class="formation__curriculo__itens__itens">
+            <img 
+                src="{{ curso.logoInstituicao }}" 
+                alt="{{ curso.instituicao }}"
+                class="formation__curriculo__logo"
+            >
+            <div class="formation__curriculo__content">
+                <p class="formation__curriculo__itens__itens__p">
+                    <strong class="formation__curriculo__itens__itens__s">Grau do curso:</strong> {{ curso.grauCurso }}
+                </p>
+                <p class="formation__curriculo__itens__itens__p">
+                    <strong class="formation__curriculo__itens__itens__s">Nome do curso:</strong> {{ curso.nomeCurso }}
+                </p>
+                <p class="formation__curriculo__itens__itens__p">
+                    <strong class="formation__curriculo__itens__itens__s">Instituição:</strong> {{ curso.instituicao }}
+                </p>
+                <p class="formation__curriculo__itens__itens__p">
+                    <strong class="formation__curriculo__itens__itens__s">Início:</strong> {{ curso.inicio }}
+                </p>
+                <p class="formation__curriculo__itens__itens__p">
+                    <strong class="formation__curriculo__itens__itens__s">Fim:</strong> {{ curso.fim }}
+                </p>
+            </div>
+        </li>
+            {% endfor %}
+        </ul>
+    </section>
+
+    <section class="cursos__curriculo">
+        <h1 class="cursos__curriculo__title">
+            Cursos e Certificações
+        </h1>
+        <P class = "cursos__curriculo__text">Um total de {{ cursos|length }} cursos.</P>
+        <ul class="cursos__curriculo__itens">
+            {% for curso in cursos %}
+        <li class="cursos__curriculo__itens__item {% if loop.index > 5 %}extra-curso{% endif %}">
+            <div class="curso__logo">
+                <img 
+                    src="{{ curso.logoInstituicao }}" 
+                    alt="Logo {{ curso.instituicao }}">
+            </div>
+            <div class="curso__content">
+                <p><strong>Nome do curso:</strong> {{ curso.nomeCurso }}</p>
+                <p><strong>Instituição:</strong> {{ curso.instituicao }}</p>
+                <p><strong>Data:</strong> {{ curso.data }}</p>
+                <p>
+                    <strong>Certificado:</strong>
+                    <a class="cursos__curriculo__itens__item__text__CFVALID"
+                    href="{{ curso.codCertificado }}{{ curso.urlCertificado }}"
+                    target="_blank">
+                        Ver certificado
+                    </a>
+                </p>
+            </div>
+        </li>
+            {% endfor %}
+        </ul>
+        <button id="mostrarTodos" class="cursos__curriculo__btn-cursos">Mostrar todos</button>
+        <button id="recolher" class="cursos__curriculo__btn-cursos" style="display: none;">Recolher</button>
+    </section>
+
+    <section class="experiencia__curriculo">
+        <h1 class="experiencia__curriculo__title">Experiência Profissional</h1>
+        <canvas class="experiencia__curriculo__grafic" id="experienciaChart" width="900" height="400"></canvas>
+        <p class="experiencia__curriculo__text__info">Clique na experiência para uma descrição</p>
+    </section>
+    
+    <script>
+        const experiencias = {{ experiencias | tojson | safe }};
+
+        // Criar pontos do gráfico
+        const dataPoints = experiencias.map((exp) => ({
+            x: new Date(exp.inicio_iso).getTime(),
+            y: exp.valor_vertical,
+            label: exp.cargo + " - " + exp.empresa,
+            departamento: exp.departamento,
+            cargo: exp.cargo,
+            empresa: exp.empresa,
+            descricao: exp.descricao,
+            inicio: exp.inicio,
+            fim: exp.fim
+        }));
+
+        // Calcular min/max com margem de 2 meses
+        const timestamps = dataPoints.map(dp => dp.x);
+        const minDate = new Date(Math.min(...timestamps));
+        minDate.setMonth(minDate.getMonth() - 2);
+
+        const maxDate = new Date(Math.max(...timestamps));
+        maxDate.setMonth(maxDate.getMonth() + 2);
+
+        const ctx = document.getElementById('experienciaChart').getContext('2d');
+
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                datasets: [{
+                    label: 'Linha do tempo da carreira',
+                    data: dataPoints,
+                    fill: false,
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    pointBackgroundColor: 'rgba(75, 192, 192, 1)',
+                    tension: 0.2,
+                    pointRadius: 6,
+                    pointHitRadius: 20
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                parsing: false,
+
+                onClick: (evt, elements) => {
+                    if (elements.length > 0) {
+                        const ponto = dataPoints[elements[0].index];
+
+                        document.querySelector(".experiencia__curriculo__text__info").innerHTML = `
+                            <strong>Departamento:</strong> ${ponto.departamento}<br><br>
+                            <strong>Cargo:</strong> ${ponto.cargo}<br><br>
+                            <strong>Empresa:</strong> ${ponto.empresa}<br><br>
+                            <strong>Descrição:</strong><br>${ponto.descricao}<br><br>
+                            <strong>Período:</strong> ${ponto.inicio} – ${ponto.fim}
+                        `;
+                    }
+                },
+
+                scales: {
+                    x: {
+                        type: 'linear',
+                        min: minDate.getTime(),
+                        max: maxDate.getTime(),
+                        ticks: {
+                            callback: (value) => {
+                                const d = new Date(value);
+                                return `${String(d.getMonth() + 1).padStart(2, '0')}/${d.getFullYear()}`;
+                            }
+                        }
+                    },
+                    y: {
+                        ticks: {
+                            stepSize: 1
+                        }
+                    }
+                },
+
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        callbacks: {
+                            title: () => '', // remove o título (número gigante)
+                            label: (context) => context.raw.label // só o texto
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+
+    </main>
+    {% include "footer.html" %}
+</body>
+</html>

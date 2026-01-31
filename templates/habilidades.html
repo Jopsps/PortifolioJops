@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Habilidades - João Pedro dos Santos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="{{ url_for('static', filename='js/functions.js') }}"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+
+<body class = "abilities" id="body">
+    {% include "header__curri-proj-hab.html" %}
+    <main class = "main__abilities">
+
+<section class="section__abilities__hardskill">
+    <h2 class="main__abilities__hardskill_title">Hard Skill:</h2>
+    <div class="main__abilities__hardskill">
+        <div class="swiper main__abilities__hardskill__contains">
+            <div class="swiper-wrapper">
+                {% for skill_hard in hard_skills %}
+                <div class="swiper-slide">
+                    <div class="hardskill-card">
+                        <div class="hardskill-card__top">
+                            <div class="hardskill-card__img">
+                                <img src="{{ skill_hard.imagemHabilidades }}" alt="{{ skill_hard.titulo }}">
+                            </div>
+                            <h2 class="hardskill-card__title">{{ skill_hard.titulo }}</h2>
+                        </div>
+                        <span class="tipo">{{ skill_hard.tipo }}</span>
+                        <p class="hardskill-card__text">{{ skill_hard.descricao }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+
+<section class="section__abilities__hardskill">
+    <h2 class="main__abilities__hardskill_title">Soft Skill:</h2>
+    <div class="main__abilities__hardskill">
+        <div class="swiper main__abilities__hardskill__contains">
+            <div class="swiper-wrapper">
+                {% for skill_soft in soft_skills %}
+                <div class="swiper-slide">
+                    <div class="hardskill-card">
+                        <div class="hardskill-card__top">
+                            <div class="hardskill-card__img">
+                                <img src="{{ skill_soft.imagemHabilidades }}" alt="{{ skill_soft.titulo }}">
+                            </div>
+                            <h2 class="hardskill-card__title">{{ skill_soft.titulo }}</h2>
+                        </div>
+                        <span class="tipo">{{ skill_soft.tipo }}</span>
+                        <p class="hardskill-card__text">{{ skill_soft.descricao }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+
+<script>
+    const swiper = new Swiper('.swiper', {
+        grabCursor: true,
+        freeMode: true,
+
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+                spaceBetween: 16,
+            },
+            800: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            1600: {
+                slidesPerView: 3,
+                spaceBetween: 24,
+            },
+            2000: {
+                slidesPerView: 4,
+                spaceBetween: 24,
+            },
+            3500: {
+                slidesPerView: 5,
+                spaceBetween: 28,
+            }
+        }
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+    {% include "footer.html" %}
+</body>
+</html>

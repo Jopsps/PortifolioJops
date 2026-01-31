@@ -1,0 +1,348 @@
+
+:root {
+    /* ----------------- FUNDO PRINCIPAL ----------------- */
+    --color__body__curriculo: #0b121c;
+    --color__body__curriculo__efect: #1e90ff;
+    /* ----------------- FORMACAO ----------------- */
+    --color__curriculo__formation: #0b121c;
+    --color__curriculo__formation__card: #111827;
+    --color__curriculo__formation__text: #f6f4e8;
+    --color__curriculo__formation__title: #1e90ff;
+    /* ----------------- CURSOS ----------------- */
+    --color__curriculo__cursos: #0b121c;
+    --color__curriculo__cursos__card: #111827;
+    --color__curriculo__cursos__text: #f6f4e8;
+    --color__curriculo__cursos__title: #1e90ff;
+    --color__curriculo__cursos__text__hover: #f6f4e8;
+    /* ----------------- EXPERIENCIAS ----------------- */
+    --color__curriculo__experience__card: #111827;
+    --color__curriculo__experience__text: #f6f4e8;
+}
+/* LIGHT MODE VARS */
+.light-mode {
+    --color__body__curriculo: #f5f5f5;
+    --color__body__curriculo__efect: #1e90ff;
+
+    --color__curriculo__formation__card: #f0f0f0;
+    --color__curriculo__formation__text: #1c1c1c;
+    --color__curriculo__formation: #f5f5f5;
+    --color__curriculo__formation__title: #1e90ff;
+
+    --color__curriculo__cursos__card: #f0f0f0;
+    --color__curriculo__cursos__text: #1c1c1c;
+    --color__curriculo__cursos: #f5f5f5;
+    --color__curriculo__cursos__title: #1e90ff;
+    --color__curriculo__cursos__text__hover: #f6f4e8;
+    --color__curriculo__experience__card: #f0f0f0;
+    --color__curriculo__experience__text: #1c1c1c;
+}
+
+/* =========================================== */
+/* SECTION DO HEADER ----->>*/
+.header__index__image {
+    position: absolute;
+    left: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.header__curriculo__image {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+
+/* BODY ----->>*/
+.curriculo{
+    background-color: var(--color__body__curriculo);
+}
+
+/* SECTION FORMACAO ----->>*/
+.formation__curriculo {
+    padding: 2rem 1rem;
+    margin: 5rem 1rem;
+    background-color: var(--color__curriculo__formation);
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.formation__curriculo__title{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: var(--color__curriculo__formation__text);
+}
+
+.formation__curriculo__itens {
+    padding: 0;
+    list-style: none;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.formation__curriculo__itens__itens {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: default;
+    background-color: var(--color__curriculo__formation__card);
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: var(--color__curriculo__formation__text);
+}
+
+.formation__curriculo__logo {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+
+    border-radius: 50%;
+    object-fit: cover;
+
+    background-color: #fff;
+    padding: 4px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.formation__curriculo__content p {
+    margin: 0.3rem 0;
+}
+
+.formation__curriculo__itens__itens strong {
+    color: var(--color__curriculo__formation__title);
+}
+
+.formation__curriculo__itens__itens:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+/* SECTION CURSOS ----->>*/
+.cursos__curriculo {
+    padding: 2rem 1rem;
+    margin: 5rem 1rem;
+    background-color: var(--color__curriculo__formation);
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.cursos__curriculo__title{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: var(--color__curriculo__cursos__text);
+}
+
+.cursos__curriculo__itens {
+    padding: 0;
+    list-style: none;
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+.cursos__curriculo__itens__item {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 1.2rem 1.5rem;
+    margin-bottom: 1rem;
+
+    background-color: var(--color__curriculo__cursos__card);
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: var(--color__curriculo__cursos__text);
+
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.curso__logo {
+    flex-shrink: 0;
+}
+
+.curso__logo img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+
+    background-color: #fff;
+    padding: 0.3rem;
+
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.curso__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.curso__content p {
+    margin: 0.25rem 0;
+}
+
+.cursos__curriculo__itens strong {
+    color: var(--color__curriculo__cursos__title);
+}
+
+.cursos__curriculo__text{
+    color: var(--color__curriculo__cursos__text);
+}
+
+.cursos__curriculo__itens__item__text__CFVALID{
+    text-decoration: none;
+    color: var(--color__curriculo__cursos__text);
+}
+
+.cursos__curriculo__itens__item__text__CFVALID:hover{
+    color: var(--color__curriculo__cursos__title);
+}
+
+.cursos__curriculo__itens__item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.cursos__curriculo__itens__item p {
+    margin: 0.3rem 0;
+}
+
+.cursos__curriculo__btn-cursos {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--color__curriculo__cursos__title);
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    text-align: center;
+    min-width: 180px;
+    color: var(--color__curriculo__cursos__text__hover);
+}
+
+.cursos__curriculo__btn-cursos:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.cursos__curriculo__btn-cursos {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* SECTION DO EXPERIENCIAS ----->>*/
+.experiencia__curriculo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: var(--color__curriculo__cursos__text);
+}
+
+.experiencia__curriculo__grafic {
+    width: 100%;
+    height: 16rem; /* ajusta aqui tranquilo */
+    max-height: 16rem;
+}
+/* CARD DE DETALHES DA EXPERIÊNCIA */
+.experiencia__curriculo__text__info {
+    margin: 2.5rem auto 0;
+    padding: 2rem 2.5rem;
+    max-width: 900px;
+    background: var(--color__curriculo__experience__card);
+    color: var(--color__curriculo__experience__text);
+    border-radius: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.7;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    transition: all 0.25s ease;
+}
+
+.experiencia__curriculo__text__info strong {
+    display: inline-block;
+    margin-bottom: 0.3rem;
+    font-size: 0.95rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color__curriculo__formation__title);
+}
+
+/* ================= RESPONSIVIDADE ================= */
+
+/* Tablets e telas médias */
+@media (max-width: 768px) {
+
+    .formation__curriculo,
+    .cursos__curriculo,
+    .experiencia__curriculo {
+        margin: 3rem 1rem;
+        padding: 2rem 1rem;
+    }
+
+    .formation__curriculo__itens,
+    .cursos__curriculo__itens {
+        max-width: 100%;
+    }
+
+    .experiencia__curriculo__grafic {
+        height: 14rem;
+        max-height: 14rem;
+    }
+
+    .experiencia__curriculo__text__info {
+        padding: 1.8rem;
+        font-size: 0.95rem;
+    }
+}
+
+/* Celulares */
+@media (max-width: 480px) {
+
+    .formation__curriculo,
+    .cursos__curriculo,
+    .experiencia__curriculo {
+        margin: 2rem 0.5rem;
+        padding: 1.5rem 0.8rem;
+    }
+
+    .formation__curriculo__title,
+    .cursos__curriculo__title {
+        text-align: center;
+        font-size: clamp(1rem, 4vw, 1.2rem);
+    }
+
+    .formation__curriculo__itens__itens,
+    .cursos__curriculo__itens__item {
+        padding: 1rem;
+        font-size: clamp(1rem, 4vw, 1.2rem);
+    }
+
+    .experiencia__curriculo__grafic {
+        height: 12rem;
+        max-height: 12rem;
+    }
+
+    .experiencia__curriculo__text__info {
+        padding: 1.5rem 1.2rem;
+        font-size: 1rem; /* fonte maior e mais legível */
+        line-height: 1.8; /* deixa o texto mais respirável */
+    }
+}
+
+
